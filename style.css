@@ -178,3 +178,33 @@ output {
   font-weight: bold;
   color: #444;
 }
+
+/* Header title container with flags */
+.header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .3rem; /* space between flags and title */
+  margin-bottom: 0rem;
+}
+
+.header-title h1 {
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.flag {
+  width: 120px; /* adjust size as needed */
+  height: auto;
+}
+
+/* Optional: Responsive for smaller screens */
+@media (max-width: 768px) {
+  .header-title {
+    flex-direction: column;
+  }
+  .flag {
+    width: 30px;
+  }
+}
