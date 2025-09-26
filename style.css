@@ -93,11 +93,6 @@ img {
   gap: 10px;
 }
 
-.progress-gallery img:hover {
-  border-color: #444;
-  transform: scale(1.05);
-}
-
     /* Popup lightbox */
 .lightbox {
   display: none;
